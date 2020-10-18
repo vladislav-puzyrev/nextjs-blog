@@ -35,8 +35,10 @@ export default function Layout ({
           <>
             <img
               src="/images/profile.png"
-              className={`${styles.headerHomeImage} ${utilStyles.borderCircle}`}
+              className={utilStyles.borderCircle}
               alt={name}
+              width="144"
+              height="144"
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
@@ -46,8 +48,10 @@ export default function Layout ({
               <a>
                 <img
                   src="/images/profile.png"
-                  className={`${styles.headerImage} ${utilStyles.borderCircle}`}
+                  className={utilStyles.borderCircle}
                   alt={name}
+                  width="108"
+                  height="108"
                 />
               </a>
             </Link>
